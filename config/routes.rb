@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'flatuipro_demo/index'
+
   get 'pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
