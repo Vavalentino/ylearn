@@ -14,3 +14,26 @@
  *= require_self
  *= require twitter/bootstrap
  */
+
+ .top-buffer-large { margin-top:40px;
+ }
+
+.bottom-padding {
+    padding-bottom:40px;
+}
+
+.bottom-border {
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:#E1E1E8;
+}
+
+ .top-border {
+    border-top-width:1px;
+    border-top-style:solid;
+    border-top-color:#E1E1E8;
+}
+
+ .essence {
+    color:#1ABC9C;
+}
