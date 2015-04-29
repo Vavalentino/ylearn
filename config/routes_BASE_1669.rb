@@ -1,16 +1,7 @@
 Rails.application.routes.draw do
-  
-  root "pages#home"
-
-  #Question routes
-  get "q1" => "questions#q1"
-
-  #Result routes
-  get "r1" => "results#r1"
-
-
   get 'flatuipro_demo/index'
 
+  get 'pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
