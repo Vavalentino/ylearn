@@ -18,6 +18,10 @@
  .top-buffer-large { margin-top:40px;
  }
 
+ .top-buffer-footer {
+    margin-top:100px;
+ }
+
 .bottom-padding {
     padding-bottom:40px;
 }
@@ -37,3 +41,121 @@
  .essence {
     color:#1ABC9C;
 }
+
+.margin-round {
+	margin-top:10px;
+    margin-bottom:10px;
+}
+
+.padding-top {
+    padding-top:10px;
+}
+
+.img-responsive{
+  display: block;
+height: auto;
+max-width: 100%;
+}
+
+.bg {
+  background: url('learntocode.png') no-repeat center center;
+
+  position: fixed;
+  width: 100%;
+  height: 600px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron {
+  height: 500px;
+  color: white;
+  background:transparent;
+  background-color:#f39c12;
+}
+
+.bgwhite {
+    background-color:white;
+}
+
+.lastelement {
+    padding-bottom:100px;
+}
+
+.whitetext {
+    color: white;
+}
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #3598DB;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #3598DB;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+    margin-bottom: 130px;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 130px;
+
+}
+
+/*
+body { 
+	background: #EAF6FE !important;
+}
+*/
