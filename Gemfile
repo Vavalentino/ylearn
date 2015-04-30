@@ -27,7 +27,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer'
 gem 'jquery-ui-rails'
 gem 'less-rails-bootstrap'
-gem 'designmodo-flatuipro-rails', '~> 1.3.0.branch'
 
 
 group :development, :test do
