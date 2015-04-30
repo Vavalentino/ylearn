@@ -7,6 +7,25 @@ Rails.application.routes.draw do
 
   #Result routes
   get "r1" => "results#r1"
+  get "r2" => "results#r2"
+  get "r3" => "results#r3"
+  get "r4" => "results#r4"
+  get "r5" => "results#r5"
+  get "r6" => "results#r6"
+  get "r7" => "results#r7"
+  get "r8" => "results#r8"
+  get "r9" => "results#r9"
+  get "r10" => "results#r10"
+  get "r11" => "results#r11"
+  get "r12" => "results#r12"
+  get "r13" => "results#r13"
+  get "r14" => "results#r14"
+  get "r15" => "results#r15"
+  get "r16" => "results#r16"
+  get "r18" => "results#r18"
+  get "r19" => "results#r19"
+  get "r20" => "results#r20"
+  get "r21" => "results#r21"
 
 
   get 'flatuipro_demo/index'

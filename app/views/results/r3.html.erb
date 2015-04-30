@@ -1,0 +1,27 @@
+<div class="row lastelement">
+  <div class="col-md-8 col-md-offset-2">
+  	<h1 class="text-center">You should learn...</h1>
+  	<h1 class="text-center essence">...HTML, CSS and Javascript</h1>
+  	<div class="top-buffer-large">
+  		<%= image_tag "html.png", class: "img-responsive center-block" %>
+  		<p class="top-buffer-large">As you are interested in the visual aspect of web applications your goal should be to become a front-end web developer. The front-end of any web application consists of three programming languages: HTML, CSS and Javascript. As a front-end web developer, mastering those languages will allow you to turn web applications into beautiful and user-friendly products.</p>
+  	</div>
+  	<h1 class="text-center essence"><a href="https://onemonth.com/courses/one-month-html" target="_blank"> ...on Onemonth.com </a></h1>
+  	<div class="top-buffer-large">
+  		<%= link_to image_tag("onemonthhtml.png", alt: "Onemonth Screenshot", class: "img-responsive center-block"), 'https://onemonth.com/courses/one-month-html', target:"_blank" %>
+  		<p class="top-buffer-large">
+        The best place to jump-start your front-end developer career is the <a href="https://onemonth.com/courses/one-month-html" target="_blank">OneMonth HTML</a> Tutorial by Chris Castiglione. Along the 8 hours of video lessons you will create an about me page, a blog template and a product landing page. Within those projects you learn how to integrate features such as embedded YouTube videos, Google Maps and photo galleries.</p>
+  	</div>
+  	<div class="top-buffer-large">
+  		<%= link_to "Check out One Month now!", 'https://onemonth.com/courses/one-month-html', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+    </div>
+    <div class="top-buffer-large bottom-padding">
+      <%= link_to root_path, class: "btn btn-lg btn-default btn-block" do %>
+        <span class="glyphicon glyphicon-chevron-left greytext"></span>
+        Start again
+      <% end %>
+    </div>
+  	</div>
+  </div>
+</div>
+
