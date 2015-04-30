@@ -19,8 +19,12 @@
     font-family: "TradeGothicLTPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     line-height: 1.52;
-    color: #4D4D4D;;
+    color: #4D4D4D;
  }
+
+.greytext {
+   color: #4D4D4D !important;
+}
 
  .top-buffer-large { margin-top:40px;
  }
@@ -65,7 +69,7 @@ max-width: 100%;
 }
 
 .bg {
-  background: url('learntocode.png') no-repeat center center;
+  background: url('https://dl-web.dropbox.com/get/Picturesylearn/learntocode.png?_subject_uid=6677368&w=AABOVTk4Bi8iUrQUXcgFAgYm6FKrtkqNQy7_q00PbyJENg') no-repeat center center;
 
   position: fixed;
   width: 100%;
