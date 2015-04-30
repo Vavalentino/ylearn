@@ -4,6 +4,14 @@ Rails.application.routes.draw do
 
   #Question routes
   get "q1" => "questions#q1"
+  get "q2" => "questions#q2"
+  get "q3" => "questions#q3"
+  get "q4" => "questions#q4"
+  get "q5" => "questions#q5"
+  get "q6" => "questions#q6"
+  get "q7" => "questions#q7"
+  get "q8" => "questions#q8"
+  get "q9" => "questions#q9"
 
   #Result routes
   get "r1" => "results#r1"
@@ -26,6 +34,7 @@ Rails.application.routes.draw do
   get "r19" => "results#r19"
   get "r20" => "results#r20"
   get "r21" => "results#r21"
+  get "r22" => "results#r22"
 
 
   get 'flatuipro_demo/index'

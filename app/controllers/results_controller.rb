@@ -41,4 +41,6 @@ class ResultsController < ApplicationController
   end
   def r21
   end
+  def r22
+  end
 end
