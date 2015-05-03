@@ -1,29 +1,16 @@
 <div class="row lastelement">
-  <div class="col-md-6 col-md-offset-3">
-    <h1 class="text-center greytext">For which mobile platform would you like to develop apps?</h1>
-    <div class="top-buffer-large">
-      <%= link_to r12_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to build Android apps
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r5_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to build iPhone / iPad apps
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r18_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I don't know yet
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center greytext">For which mobile platform would you like to develop apps?</h1>
+      <div class="top-buffer-large bottom-padding bottom-border">
+        <%= link_to "Android", r12_path, class: "btn btn-lg btn-primary btn-block" %>
+        <%= link_to "iPhone / iPad", r5_path, class: "btn btn-lg btn-primary btn-block" %>
+        <%= link_to "I don't know yet", r18_path, class: "btn btn-lg btn-primary btn-block" %>
+      </div>
+      <div class="progress top-buffer-large top-border">
+        <div class="progress-bar" style="width: 50%;"></div> 
+      </div>
+      <%= link_to "Previous question", q2_path, class: "btn btn-lg btn-default btn-block greytext top-buffer-large" %>
     </div>
-    <div class="top-buffer-large bottom-padding bottom-border">
-      <%= link_to q2_path, class: "btn btn-lg btn-default btn-block greytext" do %>
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        Previous question
-      <% end %>
-    </div>
-    <div class="progress top-buffer-large top-border">
-      <div class="progress-bar" style="width: 100%;"></div>
-    </div class=>
-    <p class="text-center">3/3</p>
   </div>
 </div>

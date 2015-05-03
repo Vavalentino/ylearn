@@ -1,29 +1,17 @@
 <div class="row lastelement">
-  <div class="col-md-6 col-md-offset-3">
-  	<h1 class="text-center greytext">Would you like to build a site that is rather static (e.g. portfolio page or company website) or dynamic (e.g. functionalities like login, posting, commenting, ...)?</h1>
-  	<div class="top-buffer-large">
-  		<%= link_to r4_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to build a rather static site
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r11_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to build a dynamic site
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r22_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I don't know yet
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
+  <div class="container">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="text-center greytext">Would you like to build a static or dynamic site?</h1>
+      <p class="text-center greytext">Examples for static pages are portfolio pages or company websites, dynamic sites have richer functionalities such as logins, posting and commenting etc.</p>
+      <div class="top-buffer-large bottom-padding bottom-border">
+        <%= link_to "Static site", r4_path, class: "btn btn-lg btn-primary btn-block" %>
+        <%= link_to "Dynamic site", r11_path, class: "btn btn-lg btn-primary btn-block" %>
+        <%= link_to "I don't know yet", r22_path, class: "btn btn-lg btn-primary btn-block" %>
+      </div>
+      <div class="progress top-buffer-large top-border">
+        <div class="progress-bar" style="width: 50%;"></div> 
+      </div>
+      <%= link_to "Previous question", q4_path, class: "btn btn-lg btn-default btn-block greytext top-buffer-large" %>
     </div>
-    <div class="top-buffer-large bottom-padding bottom-border">
-      <%= link_to q4_path, class: "btn btn-lg btn-default btn-block greytext" do %>
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        Previous question
-      <% end %>
-  	</div>
-  	<div class="progress top-buffer-large top-border">
-    	<div class="progress-bar" style="width: 100%;"></div>
-    </div class=>
-    <p class="text-center">3/3</p>
   </div>
 </div>
