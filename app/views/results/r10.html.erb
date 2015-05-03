@@ -1,25 +1,23 @@
 <div class="row lastelement">
-  <div class="col-md-8 col-md-offset-2">
-    <h1 class="text-center">You should learn...</h1>
-    <h1 class="text-center essence">...Ruby...</h1>
-    <div class="top-buffer-large">
-      <%= image_tag "ruby.png", class: "img-responsive center-block" %>
-      <p class="top-buffer-large">If you plan to start a start up by creating a web application, you should get started by learning Ruby. Ruby is a modern programming language that reads a lot like regular English, which significantly facilitates learning. With Ruby, high quality applications can be built in an efficient and straightforward process, which is why it’s the most popular language amongst the Start up community.</p>
-      <p>Ruby is designed for fun and productive coding. It’s mostly known for its popular web framework called Ruby on Rails. Rails is considered a breakthrough in lowering the barriers of entry to programming and cuts development time of web application in half compared to other languages. If you get stuck there is an exceptional online Ruby community that is happy to help out. Websites built with Ruby include Twitter, Hulu and Slideshare.</p>
-    </div>
-    <h1 class="text-center essence"><a href="https://onemonth.com/courses/one-month-rails" target="_blank"> ...on Onemonth.com </a></h1>
-    <div class="top-buffer-large">
-      <%= link_to image_tag("onemonthrails.png", alt: "One Month Screenshot", class: "img-responsive center-block"), 'https://onemonth.com/courses/one-month-rails', target:"_blank" %><p class="top-buffer-large">The best place to get a jump-start with Ruby and Rails development is the <a href="https://onemonth.com/courses/one-month-rails" target="_blank">One Month Rails tutorial</a> by Mattan Griffel. Along the way of 8 hours of video tutorial you will get familiar with the basics of the programming language, get used to the development environment, create and deploy your very own clone of Pinterest. One Month Rails is arguably the best beginner tutorial for learning Ruby and Rails out there and we think it makes little sense to start with any other tutorial. Google it and you’ll see people raving about it all over the Internet.</p>
-    </div>
-    <div class="top-buffer-large">
-      <%= link_to "Check out One Month Rails now!", 'https://onemonth.com/courses/one-month-rails', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
-    </div>
-    <div class="top-buffer-large bottom-padding">
-      <%= link_to root_path, class: "btn btn-lg btn-default btn-block" do %>
-        <span class="glyphicon glyphicon-chevron-left greytext"></span>
-        Start again
-      <% end %>
-    </div>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <h1 class="text-center">You should learn...</h1>
+      <h1 class="text-center essence">...Ruby...</h1>
+      <div class="top-buffer-large">
+        <%= image_tag "ruby.png", class: "img-responsive center-block" %>
+        <p class="top-buffer-large">If you plan to start a start up by creating a web application, you should get started by learning Ruby. Ruby is a modern programming language that reads a lot like regular English, which significantly facilitates learning. With Ruby, high quality applications can be built in an efficient and straightforward process, which is why it’s the most popular language amongst the Start up community.</p>
+        <p>Ruby is designed for fun and productive coding. It’s mostly known for its popular web framework called Ruby on Rails. Rails is considered a breakthrough in lowering the barriers of entry to programming and cuts development time of web application in half compared to other languages. If you get stuck there is an exceptional online Ruby community that is happy to help out. Websites built with Ruby include Twitter, Hulu and Slideshare.</p>
+      </div>
+      <h1 class="text-center essence"><a href="https://onemonth.com/courses/one-month-rails" target="_blank"> ...on Onemonth.com </a></h1>
+      <div class="top-buffer-large">
+        <%= link_to image_tag("onemonthrails.png", alt: "One Month Screenshot", class: "img-responsive center-block"), 'https://onemonth.com/courses/one-month-rails', target:"_blank" %><p class="top-buffer-large">The best place to get a jump-start with Ruby and Rails development is the <a href="https://onemonth.com/courses/one-month-rails" target="_blank">One Month Rails tutorial</a> by Mattan Griffel. Along the way of 8 hours of video tutorial you will get familiar with the basics of the programming language, get used to the development environment, create and deploy your very own clone of Pinterest. One Month Rails is arguably the best beginner tutorial for learning Ruby and Rails out there and we think it makes little sense to start with any other tutorial. Google it and you’ll see people raving about it all over the Internet.</p>
+      </div>
+      <div class="top-buffer-large">
+        <%= link_to "Check out One Month Rails now!", 'https://onemonth.com/courses/one-month-rails', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+      </div>
+      <div class="top-buffer-large bottom-padding">
+        <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
+      </div>
     </div>
   </div>
 </div>

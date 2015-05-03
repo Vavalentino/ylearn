@@ -1,25 +1,23 @@
 <div class="row lastelement">
-  <div class="col-md-8 col-md-offset-2">
-    <h1 class="text-center">You should learn...</h1>
-    <h1 class="text-center essence">...Sprite Kit...</h1>
-    <div class="top-buffer-large">
-      <%= image_tag "spritekit.png", class: "img-responsive center-block" %>
-      <p class="top-buffer-large">We are convinced, that your first personal game project should run on a smartphone. The reason for this is, that PC and console games usually incorporate a wide range of skills that are rarely covered by one person. Sprite Kit, a game development framework for iOS (iPhone, iPad) makes this process especially easy.</p>
-    </div>
-    <h1 class="text-center essence"><a href="https://teamtreehouse.com/space-cat" target="_blank"> ...on Teamtreehouse.com </a></h1>
-    <div class="top-buffer-large">
-      <%= link_to image_tag("teamtreehousegame.png", alt: "Teamtreehouse Screenshot", class: "img-responsive center-block"), 'https://teamtreehouse.com/space-cat', target:"_blank" %>
-      <p class="top-buffer-large">The best place to get a jump-start with Sprite Kit game development is <a href="https://teamtreehouse.com/space-cat" target="_blank">Teamtreehouse.com</a>. Over the course of two consecutive tutorials, you will design and create a Space Shooter game from scratch. The first tutorial will introduce you to game design, whereas along the second tutorial you will actually program the game.</p>
-    </div>
-    <div class="top-buffer-large">
-      <%= link_to "Check out Teamtreehouse now!", 'https://teamtreehouse.com/space-cat', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
-    </div>
-    <div class="top-buffer-large bottom-padding">
-      <%= link_to root_path, class: "btn btn-lg btn-default btn-block" do %>
-        <span class="glyphicon glyphicon-chevron-left greytext"></span>
-        Start again
-      <% end %>
-    </div>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <h1 class="text-center">You should learn...</h1>
+      <h1 class="text-center essence">...Sprite Kit...</h1>
+      <div class="top-buffer-large">
+        <%= image_tag "spritekit.png", class: "img-responsive center-block" %>
+        <p class="top-buffer-large">We are convinced, that your first personal game project should run on a smartphone. The reason for this is, that PC and console games usually incorporate a wide range of skills that are rarely covered by one person. Sprite Kit, a game development framework for iOS (iPhone, iPad) makes this process especially easy.</p>
+      </div>
+      <h1 class="text-center essence"><a href="https://teamtreehouse.com/space-cat" target="_blank"> ...on Teamtreehouse.com </a></h1>
+      <div class="top-buffer-large">
+        <%= link_to image_tag("teamtreehousegame.png", alt: "Teamtreehouse Screenshot", class: "img-responsive center-block"), 'https://teamtreehouse.com/space-cat', target:"_blank" %>
+        <p class="top-buffer-large">The best place to get a jump-start with Sprite Kit game development is <a href="https://teamtreehouse.com/space-cat" target="_blank">Teamtreehouse.com</a>. Over the course of two consecutive tutorials, you will design and create a Space Shooter game from scratch. The first tutorial will introduce you to game design, whereas along the second tutorial you will actually program the game.</p>
+      </div>
+      <div class="top-buffer-large">
+        <%= link_to "Check out Teamtreehouse now!", 'https://teamtreehouse.com/space-cat', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+      </div>
+      <div class="top-buffer-large bottom-padding">
+        <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
+      </div>
     </div>
   </div>
 </div>

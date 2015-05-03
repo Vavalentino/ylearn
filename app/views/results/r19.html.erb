@@ -1,26 +1,24 @@
 <div class="row lastelement">
-  <div class="col-md-8 col-md-offset-2">
-    <h1 class="text-center">You should learn...</h1>
-    <h1 class="text-center essence">...Java...</h1>
-    <div class="top-buffer-large">
-      <%= image_tag "java.png", class: "img-responsive center-block" %>
-      <p class="top-buffer-large">Java is the programming language to pick if getting a secure and well paying job is what counts for you. Being released in 1995, Java is still the most in demand and highest paying programming language today with an average salary of $102,000 in the US.</p>
-      <p>Java runs on pretty much every device from personal computers, mobile phones to television sets and is used by 64 percent of enterprises. Applications built with Java include Gmail, Minecraft, Android apps and a large number of enterprise solutions.</p>
-    </div>
-    <h1 class="text-center essence"><a href="https://www.udemy.com/java-essential-training-with-java-8/?dtcode=nyay3862LZp1" target="_blank"> ...on Udemy.com </a></h1>
-    <div class="top-buffer-large">
-      <%= link_to image_tag("udemyjava.png", alt: "Screenshot Udemy", class: "img-responsive center-block"), 'https://www.udemy.com/java-essential-training-with-java-8/?dtcode=nyay3862LZp1', target:"_blank" %>
-      <p class="top-buffer-large">Java is not considered an easy language to learn so it’s very important to choose a high quality tutorial. The best place to get started with learning Java is <a href="https://www.udemy.com/java-essential-training-with-java-8/?dtcode=nyay3862LZp1" target="_blank">The Java Tutorial with Java 8 by Examples</a> on Udemy.com. The 11 hours of video tutorial take you step by step through the basics of the Java programming language and setting up your development environment.</p>
-    </div>
-    <div class="top-buffer-large">
-      <%= link_to "Check out Udemy now!", 'http://onemonth.com', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
-    </div>
-    <div class="top-buffer-large bottom-padding">
-      <%= link_to root_path, class: "btn btn-lg btn-default btn-block" do %>
-        <span class="glyphicon glyphicon-chevron-left greytext"></span>
-        Start again
-      <% end %>
-    </div>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <h1 class="text-center">You should learn...</h1>
+      <h1 class="text-center essence">...Java...</h1>
+      <div class="top-buffer-large">
+        <%= image_tag "java.png", class: "img-responsive center-block" %>
+        <p class="top-buffer-large">Java is the programming language to pick if getting a secure and well paying job is what counts for you. Being released in 1995, Java is still the most in demand and highest paying programming language today with an average salary of $102,000 in the US.</p>
+        <p>Java runs on pretty much every device from personal computers, mobile phones to television sets and is used by 64 percent of enterprises. Applications built with Java include Gmail, Minecraft, Android apps and a large number of enterprise solutions.</p>
+      </div>
+      <h1 class="text-center essence"><a href="https://www.udemy.com/java-essential-training-with-java-8/?dtcode=nyay3862LZp1" target="_blank"> ...on Udemy.com </a></h1>
+      <div class="top-buffer-large">
+        <%= link_to image_tag("udemyjava.png", alt: "Screenshot Udemy", class: "img-responsive center-block"), 'https://www.udemy.com/java-essential-training-with-java-8/?dtcode=nyay3862LZp1', target:"_blank" %>
+        <p class="top-buffer-large">Java is not considered an easy language to learn so it’s very important to choose a high quality tutorial. The best place to get started with learning Java is <a href="https://www.udemy.com/java-essential-training-with-java-8/?dtcode=nyay3862LZp1" target="_blank">The Java Tutorial with Java 8 by Examples</a> on Udemy.com. The 11 hours of video tutorial take you step by step through the basics of the Java programming language and setting up your development environment.</p>
+      </div>
+      <div class="top-buffer-large">
+        <%= link_to "Check out Udemy now!", 'http://onemonth.com', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+      </div>
+      <div class="top-buffer-large bottom-padding">
+        <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
+      </div>
     </div>
   </div>
 </div>

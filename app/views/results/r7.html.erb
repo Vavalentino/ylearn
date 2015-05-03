@@ -1,26 +1,24 @@
 <div class="row lastelement">
-  <div class="col-md-8 col-md-offset-2">
-    <h1 class="text-center">You should learn...</h1>
-    <h1 class="text-center essence">...Swift...</h1>
-    <div class="top-buffer-large">
-      <%= image_tag "swift.png", class: "img-responsive center-block" %>
-      <p class="top-buffer-large">If you plan to develop an iOS app as a personal project you should learn the programming language Swift. Apple introduced the language in 2014 as the successor of the Objective-C programming language, which has been used to develop iOS and Mac applications before. Compared to Obj-C, Swift has a very clean and easy to read syntax which makes learning much easier.</p>
-      <p>Why not learn Objective-C? This makes sense if you want to start a career working on existing apps still running on Obj-C. With your personal app project you’re gonna start from scratch so you can choose Swift right away and you’ll be faster to reach your goal.</p>
-    </div>
-    <h1 class="text-center essence"><a href="https://onemonth.com/courses/ios" target="_blank"> ...on Onemonth.com </a></h1>
-    <div class="top-buffer-large">
-      <%= link_to image_tag("onemonthswift.png", alt: "OneMonthrails", class: "img-responsive center-block"), 'https://onemonth.com/courses/ios', target:"_blank" %>
-      <p class="top-buffer-large">The best place to get a jump-start with Swift iOS development is the <a href="https://onemonth.com/courses/ios" target="_blank">One Month iOS tutorial</a> by Alfie Hanssen, lead mobile engineer at Vimeo. Along the way of 8 hours of video tutorial you will get familiar with the basics of Swift, get used to the development environment and create your very own clone of Instagram ready to submit to the app store.</p>
-    </div>
-    <div class="top-buffer-large">
-      <%= link_to "Check out One Month iOS now!", 'https://onemonth.com/courses/ios', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
-    </div>
-    <div class="top-buffer-large bottom-padding">
-      <%= link_to root_path, class: "btn btn-lg btn-default btn-block" do %>
-        <span class="glyphicon glyphicon-chevron-left greytext"></span>
-        Start again
-      <% end %>
-    </div>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <h1 class="text-center">You should learn...</h1>
+      <h1 class="text-center essence">...Swift...</h1>
+      <div class="top-buffer-large">
+        <%= image_tag "swift.png", class: "img-responsive center-block" %>
+        <p class="top-buffer-large">If you plan to develop an iOS app as a personal project you should learn the programming language Swift. Apple introduced the language in 2014 as the successor of the Objective-C programming language, which has been used to develop iOS and Mac applications before. Compared to Obj-C, Swift has a very clean and easy to read syntax which makes learning much easier.</p>
+        <p>Why not learn Objective-C? This makes sense if you want to start a career working on existing apps still running on Obj-C. With your personal app project you’re gonna start from scratch so you can choose Swift right away and you’ll be faster to reach your goal.</p>
+      </div>
+      <h1 class="text-center essence"><a href="https://onemonth.com/courses/ios" target="_blank"> ...on Onemonth.com </a></h1>
+      <div class="top-buffer-large">
+        <%= link_to image_tag("onemonthswift.png", alt: "OneMonthrails", class: "img-responsive center-block"), 'https://onemonth.com/courses/ios', target:"_blank" %>
+        <p class="top-buffer-large">The best place to get a jump-start with Swift iOS development is the <a href="https://onemonth.com/courses/ios" target="_blank">One Month iOS tutorial</a> by Alfie Hanssen, lead mobile engineer at Vimeo. Along the way of 8 hours of video tutorial you will get familiar with the basics of Swift, get used to the development environment and create your very own clone of Instagram ready to submit to the app store.</p>
+      </div>
+      <div class="top-buffer-large">
+        <%= link_to "Check out One Month iOS now!", 'https://onemonth.com/courses/ios', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+      </div>
+      <div class="top-buffer-large bottom-padding">
+        <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
+      </div>
     </div>
   </div>
 </div>

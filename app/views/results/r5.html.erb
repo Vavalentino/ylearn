@@ -1,26 +1,24 @@
 <div class="row lastelement">
-  <div class="col-md-8 col-md-offset-2">
-  	<h1 class="text-center">You should learn...</h1>
-  	<h1 class="text-center essence">...Objective-C...</h1>
-  	<div class="top-buffer-large">
-  		<%= image_tag "objectivec.png", class: "img-responsive center-block" %>
-  		<p class="top-buffer-large">The best language to learn to start a career in iOS development is Objective-C. Objective-C is the main language used to develop apps for iOS (iPhone, iPad) and OS X (Mac).</p>
-  		<p>In 2014 Apple introduced a successor programming language to Objective-C called Swift, the vast majority of apps are however still programmed in Objective-C. Hiring managers will therefore be looking for development experience in Obj-C to help maintain their existing apps. Don’t worry; once you have a good understanding of Objective-C, learning Swift will be a piece of cake.</p>
-  	</div>
-  	<h1 class="text-center essence"><a href="https://teamtreehouse.com/tracks/ios-development-with-objectivec" target="_blank"> ...on Teamtreehouse.com </a></h1>
-  	<div class="top-buffer-large">
-  		<%= link_to image_tag("teamtreehouseobjectivec.png", alt: "Teamtreehouse Screenshot", class: "img-responsive center-block"), 'https://teamtreehouse.com/tracks/ios-development-with-objectivec', target:"_blank" %>
-  		<p class="top-buffer-large">The best place to get a jump-start with Obj-C iOS development is the <a href="https://teamtreehouse.com/tracks/ios-development-with-objectivec" target="_blank">Teamtreehouse iOS development track</a>. The 32 hours tutorial first gets you familiar with the basics of Objective-C and introduces you to the development environment. After that it’s all about learning by doing and you’re gonna build five different apps such as a blog reader, a clone of Snapchat and a Photo Browser.</p>
-  	</div>
-  	<div class="top-buffer-large">
-  		<%= link_to "Check out Teamtreehouse now!", 'https://teamtreehouse.com/tracks/ios-development-with-objectivec', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
-    </div>
-    <div class="top-buffer-large bottom-padding">
-      <%= link_to root_path, class: "btn btn-lg btn-default btn-block" do %>
-        <span class="glyphicon glyphicon-chevron-left greytext"></span>
-        Start again
-      <% end %>
-    </div>
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+    	<h1 class="text-center">You should learn...</h1>
+    	<h1 class="text-center essence">...Objective-C...</h1>
+    	<div class="top-buffer-large">
+    		<%= image_tag "objectivec.png", class: "img-responsive center-block" %>
+    		<p class="top-buffer-large">The best language to learn to start a career in iOS development is Objective-C. Objective-C is the main language used to develop apps for iOS (iPhone, iPad) and OS X (Mac).</p>
+    		<p>In 2014 Apple introduced a successor programming language to Objective-C called Swift, the vast majority of apps are however still programmed in Objective-C. Hiring managers will therefore be looking for development experience in Obj-C to help maintain their existing apps. Don’t worry; once you have a good understanding of Objective-C, learning Swift will be a piece of cake.</p>
+    	</div>
+    	<h1 class="text-center essence"><a href="https://teamtreehouse.com/tracks/ios-development-with-objectivec" target="_blank"> ...on Teamtreehouse.com </a></h1>
+    	<div class="top-buffer-large">
+    		<%= link_to image_tag("teamtreehouseobjectivec.png", alt: "Teamtreehouse Screenshot", class: "img-responsive center-block"), 'https://teamtreehouse.com/tracks/ios-development-with-objectivec', target:"_blank" %>
+    		<p class="top-buffer-large">The best place to get a jump-start with Obj-C iOS development is the <a href="https://teamtreehouse.com/tracks/ios-development-with-objectivec" target="_blank">Teamtreehouse iOS development track</a>. The 32 hours tutorial first gets you familiar with the basics of Objective-C and introduces you to the development environment. After that it’s all about learning by doing and you’re gonna build five different apps such as a blog reader, a clone of Snapchat and a Photo Browser.</p>
+    	</div>
+    	<div class="top-buffer-large">
+    		<%= link_to "Check out Teamtreehouse now!", 'https://teamtreehouse.com/tracks/ios-development-with-objectivec', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+      </div>
+      <div class="top-buffer-large bottom-padding">
+        <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
+      </div>
   	</div>
   </div>
 </div>
