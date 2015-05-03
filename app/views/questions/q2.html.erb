@@ -1,37 +1,18 @@
 <div class="row lastelement">
   <div class="col-md-6 col-md-offset-3">
+    <div class="container">
   	<h1 class="text-center greytext">In which field would you like to work?</h1>
-  	<div class="top-buffer-large">
-  		<%= link_to q5_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to develop web applications
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to q6_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to develop mobile apps
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r15_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to develop Games
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r2_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I want to develop enterprise applications
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-      <%= link_to r19_path, class: "btn btn-lg btn-primary btn-block" do %>
-        I don't care, I just want a secure and well paying job
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      <% end %>
-    </div>
     <div class="top-buffer-large bottom-padding bottom-border">
-      <%= link_to q1_path, class: "btn btn-lg btn-default btn-block greytext" do %>
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        Previous question
-      <% end %>
-  	</div>
-  	<div class="progress top-buffer-large top-border">
-    	<div class="progress-bar" style="width: 66%;"></div>
-    </div class=>
-    <p class="text-center">2/3</p>
+  		<%= link_to "Web applications", q5_path, class: "btn btn-lg btn-primary btn-block" %>
+      <%= link_to "Mobile apps", q6_path, class: "btn btn-lg btn-primary btn-block" %>
+      <%= link_to "Game development",r15_path, class: "btn btn-lg btn-primary btn-block" %>
+      <%= link_to "Enterprise applications", r2_path, class: "btn btn-lg btn-primary btn-block" %>
+      <%= link_to "I just want a secure job", r19_path, class: "btn btn-lg btn-primary btn-block" %>
+    </div>
+      <div class="progress top-buffer-large top-border">
+    	<div class="progress-bar" style="width: 50%;"></div>    
+    </div>
+        <%= link_to "Previous question", q1_path, class: "btn btn-lg btn-default btn-block greytext top-buffer-large" %>
+  </div>
   </div>
 </div>
