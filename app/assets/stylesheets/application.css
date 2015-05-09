@@ -22,6 +22,10 @@
     color: #4D4D4D;
  }
 
+ .dropshadow {
+    text-shadow: 2px 2px #4D4D4D;;
+}
+
 .greytext {
    color: #4D4D4D !important;
 }
