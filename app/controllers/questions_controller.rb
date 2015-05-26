@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
   def q1
+    render :layout => false
   end
   def q2
   end

@@ -1,16 +1,66 @@
-<div class="row">
-  <div class="container footerdistance">
-    <div class="col-md-6 col-md-offset-3">
-      <h1 class="text-center greytext">What is your motivation for learning how to code?</h1>
-      <div class="top-buffer-large bottom-padding bottom-border">
-        <%= link_to "I want to start a career as a developer", q2_path, class: "btn btn-lg btn-primary btn-block" %>
-        <%= link_to "I want to start a startup", q3_path, class: "btn btn-lg btn-primary btn-block" %>
-        <%= link_to "I want to realize a personal project",q4_path, class: "btn btn-lg btn-primary btn-block" %>
-        <%= link_to "I'm just curious, pick a language for me!", r1_path, class: "btn btn-lg btn-primary btn-block" %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ylearn</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54715366-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Facebook Conversion Code for Aufrufe von Schlüsselseiten - Firstquestion -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6026302596003', {'value':'0.00','currency':'CHF'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6026302596003&amp;cd[value]=0.00&amp;cd[currency]=CHF&amp;noscript=1" /></noscript>
+
+</head>
+<body>
+
+
+  <%= render 'layouts/header' %>
+    <div class="wrapper">
+      <div class="row">
+        <div class="container footerdistance">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="text-center greytext">What is your motivation for learning how to code?</h1>
+            <div class="top-buffer-large bottom-padding bottom-border">
+              <%= link_to "I want to start a career as a developer", q2_path, class: "btn btn-lg btn-primary btn-block" %>
+              <%= link_to "I want to start a startup", q3_path, class: "btn btn-lg btn-primary btn-block" %>
+              <%= link_to "I want to realize a personal project",q4_path, class: "btn btn-lg btn-primary btn-block" %>
+              <%= link_to "I'm just curious, pick a language for me!", r1_path, class: "btn btn-lg btn-primary btn-block" %>
+            </div>
+              <div class="progress top-buffer-large top-border">
+              <div class="progress-bar" style="width: 25%;"></div>    
+            </div>
+          </div>
+        </div>
       </div>
-        <div class="progress top-buffer-large top-border">
-        <div class="progress-bar" style="width: 25%;"></div>    
-      </div>
+    <div class="push"></div>
     </div>
-  </div>
-</div>
+  <%= render 'layouts/footer' %>
+</body>
+</html>
+
+
