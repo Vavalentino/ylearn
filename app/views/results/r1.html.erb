@@ -15,13 +15,13 @@
         <p class="top-buffer-large">The best place to get started with Python and the basics of computer programming is the <a href="http://bit.ly/1AE7Zbw" target="_blank">Python track on Codecademy</a>. This free course is entertaining and completely browser based, so there’s no cumbersome installation or setup process. The course assumes no prior knowledge, so even if this is your first time coding you should find it easy. All you need to get started is a Windows, Mac or Linux computer and a solid Internet connection.</p>
 
       </div>
-      <div class="top-buffer-large">
-        <%= link_to "Check out Codecademy now!", 'http://bit.ly/1AE7Zbw', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
+      <div class="top-buffer-large bottom-padding">
+        <%= link_to "Check out Codecademy now >>", 'http://bit.ly/1AE7Zbw', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
       </div>
+      <p class="text-center">Happy with this recommendation? <br><%= mail_to "valentin@ylearn.io", "Share your feedback!" %></p>
       <div class="top-buffer-large bottom-padding">
         <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
       </div>
-      <p class="text-center">What do you like or dislike about your YLEARN experience? <br><%= mail_to "valentin@ylearn.io", "Share your feedback!" %></p>
     </div>
   </div>
 </div>

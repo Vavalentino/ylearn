@@ -37,6 +37,10 @@ Rails.application.routes.draw do
   get "r21" => "results#r21"
   get "r22" => "results#r22"
 
+  #paywithatweet routes
+  get "p8" => "paywithatweet#r8"
+  get "p3" => "paywithatweet#r3"
+
 
   get 'flatuipro_demo/index'
 

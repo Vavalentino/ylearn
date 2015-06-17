@@ -60,6 +60,13 @@ p {
     color: #4D4D4D;
  }
 
+ li {
+    font-family: "TradeGothicLTPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.52;
+    color: #4D4D4D;
+ }
+
  .dropshadow {
     text-shadow: 2px 2px #4D4D4D;;
 }
