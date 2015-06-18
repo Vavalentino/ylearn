@@ -43,4 +43,28 @@ class ResultsController < ApplicationController
   end
   def r22
   end
+  def r23
+  end
+  def r24
+  end
+  def r25
+  end
+  def r26
+  end
+  def r27
+  end
+  def r28
+  end
+  def r29
+  end
+  def r30
+  end
+  def r31
+  end
+  def r32
+  end
+  def r33
+  end
+  def r34
+  end
 end

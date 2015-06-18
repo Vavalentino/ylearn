@@ -18,4 +18,12 @@ class QuestionsController < ApplicationController
   end
   def q9
   end
+  def q10
+  end
+  def q11
+  end
+  def q12
+  end
+  def q13
+  end
 end
