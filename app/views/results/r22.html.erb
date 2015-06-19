@@ -1,28 +1,19 @@
-<div class="row">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2">
-      <h1 class="text-center">You should learn...</h1>
-      <h1 class="text-center essence">...Ruby...</h1>
-      <div class="top-buffer-large">
-        <%= image_tag "ruby.png", class: "img-responsive center-block" %>
+<%= render 'top' %>
+
+<!-- insert programming language description paragraphs below -->
+
         <p class="top-buffer-large">If you want to create a personal web application with the option of integrating dynamic functionality (such as user logins, discussion, search etc.) you should definitely learn a programming language called Ruby.</p>
         <p>Ruby is designed for fun and productive coding and reads a lot like regular English, making it easier to learn. It’s mostly known for its popular web framework, Ruby on Rails. Rails has been a break-through in terms of lowering the barriers of entry to programming. Compared to other languages it cuts development time of web applications in half. The online Ruby community is exceptional and always happy to help out if you get stuck. Websites built with Ruby include Twitter, Hulu and Slideshare.</p>
-      </div>
-      <h1 class="text-center essence"><a href="http://bit.ly/1cpobBV" target="_blank"> ...on Onemonth.com </a></h1>
-      <div class="top-buffer-large">
-        <%= link_to image_tag("onemonthrails.png", alt: "One Month Screenshot", class: "img-responsive center-block"), 'http://bit.ly/1cpobBV', target:"_blank" %><p class="top-buffer-large">The best place to get started with Ruby on Rails development is the <a href="http://bit.ly/1cpobBV" target="_blank">One Month Rails tutorial</a> by Mattan Griffel. The 8 hours of video tutorial familiarizes you with the basics of the language, introduces you to the development environment, and guides you as you create and deploy your very own clone of Pinterest. One Month Rails is probably the best Ruby on Rails beginner tutorial out there: Google it and you’ll find lots of rave reviews. The course does not assume any prior knowledge. All you need to get started is a Windows, Mac or Linux computer and a solid Internet connection.</p>
+
+<!-- programming language description ends here -->
+
+<%= render 'middle' %>
+
+<!-- insert tutorial description pararagraphs below -->
+
+        <p class="top-buffer-large">The best place to get started with Ruby on Rails development is the <a href="http://bit.ly/1cpobBV" target="_blank">One Month Rails tutorial</a> by Mattan Griffel. The 8 hours of video tutorial familiarizes you with the basics of the language, introduces you to the development environment, and guides you as you create and deploy your very own clone of Pinterest. One Month Rails is probably the best Ruby on Rails beginner tutorial out there: Google it and you’ll find lots of rave reviews. The course does not assume any prior knowledge. All you need to get started is a Windows, Mac or Linux computer and a solid Internet connection.</p>
         <p>Pricing: Starting from $49</p>
-      </div>
-      <div class="top-buffer-large">
-        <%= link_to "Check out One Month Rails now!", 'http://bit.ly/1cpobBV', class: "btn btn-lg btn-primary btn-block", target:"-blank" %>
-      </div>
-      <div class="top-buffer-large bottom-padding">
-        <%= link_to "Start again", root_path, class: "btn btn-lg btn-default btn-block" %>
-      </div>
-      <p class="text-center">Full disclosure:</p>
-      <p class="text-center">The links above are affiliate links that will earn us a commission if you purchase through them. If you do, we absolutely appreciate it and if you have any questions about any of the recommendations please <%= mail_to "valentin@ylearn.io", "Let us know" %>! We guarantee that we always recommend the tutorial that let’s you best reach your goals, irrespective of the commissions we earn.</p>
-      <p class="text-center">________________________________________________________</p>
-      <p class="text-center">What do you like or dislike about your YLEARN experience? <br><%= mail_to "valentin@ylearn.io", "Share your feedback!" %></p>
-    </div>
-  </div>
-</div>
+
+<!-- tutorial description ends here -->
+
+<%= render 'bottom' %>

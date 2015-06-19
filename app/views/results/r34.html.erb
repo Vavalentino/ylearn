@@ -1,0 +1,20 @@
+<%= render 'top' %>
+
+<!-- insert programming language description paragraphs below -->
+
+    	<p class="top-buffer-large">If you want to learn programming to support your research or scientific work, learn Python.  The language is popular in academia due to  its wide range of statistical and data science libraries.</p>
+        <p>Python also has a beautiful and clean-looking syntax that reads a lot like normal English, which makes learning a lot easier. Python is a general-purpose language that runs on different platforms and can be used in a lot of fields.</p>
+        <p>Finally, Python is tremendously well documented and has an enthusiastic online community which can offer help and support if you ever get stuck. Applications built with Python include YouTube, Instagram and Spotify.</p>
+
+<!-- programming language description ends here -->
+
+<%= render 'middle' %>
+
+<!-- insert tutorial description pararagraphs below -->
+
+    	<p class="top-buffer-large">The best place for you to get started with Python development is <%= link_to @tutorial_operator, @tutorial_link, target:"_blank" %>. Dataquest is an interactive website that teaches you the basics of the Python by applying it to data science problems. The fun thing about Dataquest is that it’s really hands-on; for instance, you will learn how to debug code while analyzing real data on student loan defaults in the U.S. All lessons are completely browser based, so there’s no cumbersome installation or setup process. The course assumes no prior knowledge, so even if this is your first time coding you should be good to go. All you need to get started is a Windows, Mac or Linux computer and a solid Internet connection.</p>
+        <p>Pricing: Most lessons are free, the premium plan costs $35 per month.</p>
+
+<!-- tutorial description ends here -->
+
+<%= render 'bottom' %>
